@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "GOL.C": "cpp",
+        "stdio.h": "c",
+        "GOLALL.C": "cpp",
+        "interrupt.h": "c",
+        "kernel.h": "c",
+        "ptrace.h": "c",
+        "jump_label.h": "c",
+        "bitops.h": "c",
+        "math.h": "c",
+        "GOL1.C": "cpp"
+    },
+    
+    "C_Cpp.default.configurationProvider": "kernel"
+
+}

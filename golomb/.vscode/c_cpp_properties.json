@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "linux",
+            "includePath": [
+                "${default}",
+                "/usr/src/linux-headers-$(uname -r)/include",
+                "/home/docker/programming/golomb/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": [
+                    "/home/docker/programming/golomb/include"
+                ]
+            }
+        },
+        {
+            "name": "kernel",
+            "includePath": [
+                "${default}",
+                "/usr/src/linux-headers-$(uname -r)/include",
+                "/home/docker/programming/golomb/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
